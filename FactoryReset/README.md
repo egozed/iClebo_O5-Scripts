@@ -11,6 +11,6 @@ how to use:
 
  >when working of script is end - you will see C7 error.
  
- >wait about 1-2 minute...
+ >!wait about 2-3 minute!...
  
  >reboot your robot.
