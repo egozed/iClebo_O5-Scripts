@@ -1,0 +1,21 @@
+#!/bin/sh
+if [ -d "/mnt/memstick/map" ]; then	
+	echo "copy MAP from usb to robot"
+	/mnt/ram/unlock_dsk0.sh
+	/bin/cp -f /mnt/memstick/map/yroot/rx2_app*.yaml /mnt/dsk0/home/yroot/
+	/bin/cp -f /mnt/memstick/map/yroot/rx2_app*.yaml /mnt/ram/yroot/
+	/bin/cp -f /mnt/memstick/map/*.* /mnt/dsk5/
+	/mnt/ram/lock_dsk0.sh
+	echo "MAP LOADED from USB to robot"
+		
+else
+	echo "copy MAP from robot to usb"
+	/bin/mkdir /mnt/memstick/map
+	/bin/mkdir /mnt/memstick/map/yroot
+	/bin/cp -f /mnt/ram/yroot/rx2_app*.yaml /mnt/memstick/map/yroot/
+	/bin/cp -f /mnt/dsk5/* /mnt/memstick/map/
+	echo "MAP SAVED from robot to USB"
+fi
+/bin/sync && /bin/sync
+/bin/sleep 4
+/sbin/reboot
