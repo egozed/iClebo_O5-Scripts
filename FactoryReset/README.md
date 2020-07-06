@@ -7,10 +7,10 @@ how to use:
  
  >push to "start cleaning".
  
- >script from record.out will be started, so all settings(map, zones, shedule, wifi...) will be clear.
-
- >when working of script is end - you will see C7 error.
+ >when working of script is start - you will see C7 error.
  
- >wait about 1-2 minute...
+ >script from record.out will be started, so all settings(map, zones, shedule, wifi...) will be clear.
+ 
+ >!wait about 2-3 minute!...
  
  >reboot your robot.
