@@ -7,10 +7,8 @@ how to use:
  
  >push to "start cleaning".
  
- >script from record.out will be started, so all settings(map, zones, shedule, wifi...) will be clear.
+ >telnet will be started at port 23
 
- >when working of script is end - you will see C7 error.
+ >remove the usb-flash drive from robot
  
- >wait about 1-2 minute...
- 
- >reboot your robot.
+ >insert wifi module to robot
