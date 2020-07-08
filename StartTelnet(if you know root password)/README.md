@@ -10,6 +10,7 @@ how to use:
  >telnet will be started at port 23
  
  >user: root
+ 
  >...you must know your password. password of my robot is !xowh058
  
  >remove the usb-flash drive from robot
