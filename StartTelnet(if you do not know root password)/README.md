@@ -8,7 +8,10 @@ how to use:
  >push to "start cleaning".
  
  >telnet will be started at port 23
-
+ 
+ >user: root
+ >password:
+ 
  >remove the usb-flash drive from robot
  
  >insert wifi module to robot
