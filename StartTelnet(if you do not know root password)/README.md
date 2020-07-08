@@ -9,7 +9,7 @@ how to use:
  
  >telnet will be started at port 23
  
- >user: root
+ >user: `root`
  
  >password:
  
