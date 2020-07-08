@@ -11,7 +11,7 @@ how to use:
  
  >user: `root`
  
- >password:
+ >password: no need!!! YOU ARE ROOT NOW!
  
  >remove the usb-flash drive from robot
  

